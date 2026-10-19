@@ -1,3 +1,6 @@
+![DayZ Bicycle with chemlight](.github/readme/chemstick.jpg)
+![DayZ Bicycle with flashlight](.github/readme/flashlight.jpg)
+
 # DayZ Bicycle Lights
 
 Adds the ability to attach a chemlight and/or flashlight to your DayZ Bicycle.
