@@ -63,7 +63,7 @@ class CfgNonAIVehicles
 class CfgVehicles
 {
   class Inventory_Base;
-  class CarScript;
+  class MotorbikeScript;
 
   class Flashlight: Inventory_Base
   {
@@ -98,14 +98,12 @@ class CfgVehicles
     };
   };
 
-  class Bicycle_Base: CarScript
+  class Bicycle_Base: MotorbikeScript
   {
     model = "Bicycle_Lights\bicycle.p3d";
     attachments[] = {
       "bicycle_wheel_1_1",
       "bicycle_wheel_1_2",
-      "bicycle_wheel_2_1",
-      "bicycle_wheel_2_2",
       "Att_CombinationLock",
       "BicycleFlashlight",
       "Chemlight"
@@ -170,8 +168,6 @@ class CfgVehicles
     attachments[] = {
       "ladybicycle_wheel_1_1",
       "ladybicycle_wheel_1_2",
-      "ladybicycle_wheel_2_1",
-      "ladybicycle_wheel_2_2",
       "Att_CombinationLock",
       "BicycleFlashlight",
       "Chemlight"
